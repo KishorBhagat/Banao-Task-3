@@ -14,7 +14,7 @@ owl.owlCarousel({
     dots: !1,
     mouseDrag: !1,
     touchDrag: !0,
-    margin: 20,
+    margin: window.innerWidth < 1024 ? 0 : 20,
     stagePadding: 0,
     transitionStyle: "ease",
     animateIn: "easeIn",
